@@ -35,7 +35,7 @@ def check_host_status(host):
 def main():
     sender_email = input("Enter your email address: ")
     if not sender_email:
-        sender_email = 'your-email@gmail.com'  # Replace with your Gmail address
+        sender_email = 'ymoua27@gmail.com'  # Replace with your Gmail address
     sender_password = input("Enter your email password: ")
     receiver_email = input("Enter administrator email address: ")
     host_to_monitor = input("Enter the host to monitor (e.g., 8.8.8.8): ")
