@@ -36,7 +36,7 @@ def main():
     sender_email = input("Enter your email address: ")
     if not sender_email:
         sender_email = 'ymoua27@gmail.com'  # Replace with your Gmail address
-    sender_password = input("Enter your email password: ")
+    sender_password = input("Enter your email password: ") #jlfj iljs gugv caot
     receiver_email = input("Enter administrator email address: ")
     host_to_monitor = input("Enter the host to monitor (e.g., 8.8.8.8): ")
 
