@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Script:                       Create TCP Port Range Scanner that test if a TCP port is open or closed
 # Author:                       Yue Moua
-# Date of latest revision:      1/24/2024
+# Date of latest revision:      1/22/2024
 # Purpose:                      Challenge 11
 
 # Run this with sudo
