@@ -4,8 +4,6 @@
 # Date of latest revision:      1/23/2024
 # Purpose:                      Challenge 12
 
-#!/usr/bin/env python3
-
 import ipaddress
 from scapy.all import ICMP, IP, sr1
 
