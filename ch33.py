@@ -18,4 +18,5 @@ query = 'python3 virustotal-search.py -k ' + apikey + ' -m ' + hash
 
 os.system(query)
 
-# 
+# REF: https://github.com/codefellows/seattle-cybersecurity-401d10/blob/main/class-33/challenges/DEMO.md
+# https://github.com/eduardxyz/virustotal-search/blob/master/virustotal-search.py
