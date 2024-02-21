@@ -11,7 +11,7 @@
 import os
 
 apikey = os.getenv('API_KEY_VIRUSTOTAL') # Set your environment variable before proceeding. You'll need a free API key from virustotal.com so get signed up there first.
-hash = 'D41D8CD98F00B204E9800998ECF8427E' # Set your hash here. 
+hash = 'a7a497cdd83580bf105638187bdccc01' # Set your hash here. 
 
 # This concatenates everything into a working shell statement that gets passed into virustotal-search.py
 query = 'python3 virustotal-search.py -k ' + apikey + ' -m ' + hash
