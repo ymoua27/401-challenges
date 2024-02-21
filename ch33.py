@@ -18,7 +18,7 @@ def search_files(directory):
     total_files_scanned = 0
     
     # Retrieve API key from environment variable
-    apikey = os.getenv('62dd7847959839b2cd2ee6b0bfea41d85711765c81ec8ec5658b8d2d067c8e45L')
+    apikey = os.getenv('API_KEY_VIRUSTOTAL')
 
     for root, _, files in os.walk(directory):
         for file_name in files:
